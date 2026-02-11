@@ -1,0 +1,275 @@
+Perfect. I’ll switch hats fully into PM mode and give you a clean, detailed, developer-ready PRD that you can directly paste into a Replit agent or share with engineers/designers.
+No fluff, no marketing tone inside the PRD — clear requirements, flows, layouts, animations, and acceptance criteria.
+
+PRODUCT REQUIREMENTS DOCUMENT (PRD)
+Product: ApplyFirst — Marketing Website (Pre-Launch / Waitlist)
+Version: v1.0
+Author: Product Management
+Status: Approved for Development
+Goal: Build a high-conversion, multi-page marketing website to capture email + phone leads for ApplyFirst prior to product launch.
+
+1. Objective & Success Criteria
+1.1 Primary Objective
+Capture qualified leads (email + phone) for early access to ApplyFirst.
+Clearly communicate product value, use cases, and future capabilities.
+Build trust and excitement without exposing unfinished product functionality.
+
+2. Target Users
+Primary Users
+Fresh graduates (0–2 years experience)
+Mid-experience job seekers (3–7 years)
+Geography
+India
+Middle East
+United States
+Devices
+Mobile-first (60–70% traffic expected)
+Desktop secondary
+
+3. Scope (What we are building)
+In Scope
+Multi-page responsive website
+Static marketing content
+Lead capture (email + phone)
+Country-code phone validation
+Post-signup confirmation state
+Lightweight UI animations
+SEO-ready structure
+Out of Scope (Explicit)
+Actual automation product
+Login / authentication
+Pricing logic
+Analytics dashboards
+Legal enforcement logic
+Admin panels
+
+4. Information Architecture (Sitemap)
+Home (/)
+How It Works (/how-it-works)
+Features (/features)
+Integrations (/integrations)
+Waitlist (/waitlist)
+FAQ (/faq)
+Contact (/contact)
+Footer (global)
+
+5. Global Design & Branding Requirements
+5.1 Color Palette (Strict)
+Background (Primary): #1E2B3A
+Teal Accent: #2C9797
+Blue Accent: #3A7EC1
+Text Primary: #FFFFFF
+Muted Text: rgba(255,255,255,0.7)
+5.2 Typography
+Primary font: Inter / Poppins / DM Sans (choose one, modern SaaS)
+Headings: Semi-bold / Bold
+Body: Regular / Medium
+Line height ≥ 1.5 for readability
+5.3 Visual Style
+Clean, modern SaaS
+Icon-driven (no heavy photography)
+Rounded corners (8–12px)
+Soft shadows (low elevation)
+No gradients (except subtle hover states)
+
+6. Page-by-Page Functional Requirements
+
+6.1 HOME PAGE
+Purpose
+Immediately explain value
+Build credibility
+Drive waitlist signup
+Sections (Top → Bottom)
+1. Header (Sticky)
+Logo (left)
+Nav links: Product | How it works | Features | Integrations | FAQ
+CTA button: Join waitlist
+Sticky after scroll ≥ 80px
+Acceptance Criteria
+CTA always visible on desktop
+Mobile hamburger menu required
+
+2. Hero Section
+Headline
+Subheadline
+Primary CTA
+Secondary CTA (demo)
+Social proof metric: “2,300+ waitlist signups”
+Icon workflow illustration
+Animation
+Headline fade + slide (Y: 12px → 0)
+Icons animate left → right sequentially
+
+3. Benefits Strip (3 Cards)
+Icons + short text
+Equal height cards
+Animation
+Cards appear on scroll (staggered 120ms)
+
+4. Demo Preview Section
+Placeholder video frame or animated mock
+Play icon overlay
+Behavior
+Clicking opens modal (no autoplay)
+
+5. Feature Highlights Grid
+4–5 cards
+Clickable but non-navigational (hover only)
+
+6. Social Proof Block
+Text testimonial
+Name + role (generic)
+No images
+
+7. CTA Band
+Full-width section
+Strong contrast background
+CTA button
+
+6.2 HOW IT WORKS PAGE
+Purpose
+Reduce skepticism
+Explain safety & control
+Structure
+Hero (headline + subheadline)
+3-step vertical flow
+Steps
+Connect account
+Automate applying & outreach
+Track & receive alerts
+Animation
+Vertical progress line fills on scroll
+Icons highlight when in viewport
+
+6.3 FEATURES PAGE
+Purpose
+Deep dive for high-intent users
+Sections
+Hero
+Individual feature blocks (left text, right icon)
+AI CV Chatbot highlight (badge: Early Access)
+Special Requirement
+AI CV Chatbot must be clearly labeled as:
+“Available during early access”
+
+6.4 INTEGRATIONS PAGE
+Requirements
+Grid of integration cards
+Each card includes:
+Logo/icon
+Short description
+Permission disclaimer
+
+6.5 WAITLIST PAGE (MOST IMPORTANT)
+Purpose
+Lead capture
+Form Fields (Required)
+Full Name (text)
+Email (email validation)
+Phone Number
+Country selector (default: India)
+Numeric validation
+Format based on country
+Button
+“Join waitlist”
+After Submit (Inline Success State)
+Replace form with:
+Success heading
+Confirmation text
+Soft referral CTA (optional)
+Validation Rules
+Email: RFC compliant
+Phone: length + country format
+Disable submit until valid
+
+6.6 FAQ PAGE
+Purpose
+Remove friction
+Reduce support queries
+Requirements
+Accordion UI
+One open at a time
+Deep-linkable questions (hash support)
+
+6.7 CONTACT PAGE
+Purpose
+Trust & credibility
+Requirements
+Simple contact form
+Static support email displayed
+No backend logic required initially (can be dummy)
+
+7. User Flow (Critical)
+Primary Flow
+Home → CTA → Waitlist → Success State
+Secondary Flows
+Home → Features → Waitlist
+Home → How it works → FAQ → Waitlist
+Exit Conditions
+If user abandons form → data not saved
+On success → no redirect, inline confirmation
+
+8. CSS & Animation Requirements
+Global Animations
+Use CSS or lightweight JS (Framer Motion optional)
+Avoid heavy libraries
+Required Animations
+Fade + slide on scroll
+Button hover:
+Scale: 1.02
+Shadow increase
+CTA pulse (subtle, every 8s)
+Performance Rule
+Animations must respect prefers-reduced-motion
+
+9. Accessibility Requirements
+Contrast ratio ≥ WCAG AA
+Keyboard navigation for:
+Forms
+Menus
+Labels for all inputs
+Error messages readable by screen readers
+
+10. SEO & Metadata
+Semantic HTML5
+One H1 per page
+Meta title & description per page
+OpenGraph tags for social sharing
+
+11. Technical Constraints
+Stack: Next.js / React / Astro (any SSR-capable framework)
+Styling: Tailwind / CSS Modules / Styled Components
+Hosting: Static + SSR compatible
+No backend dependency required for v1 (form can POST to placeholder)
+
+12. Non-Functional Requirements
+Mobile-first responsive
+Lighthouse score ≥ 85
+No console errors
+Graceful failure if JS disabled
+
+13. Risks & Mitigations
+Risk
+Mitigation
+Users expect real product
+Clear “Early access” labels
+LinkedIn policy concerns
+No real automation exposed
+Low trust
+Security copy + integrations page
+Drop-offs on form
+Minimal fields only
+
+
+
+15. Final Notes for Dev Team
+This website is conversion-first, not feature-heavy.
+Keep code clean, modular, and reusable.
+All product claims must be phrased as capabilities, not guarantees.
+Avoid fake interactivity — everything must feel intentional.
+
+If you want, next I can:
+Convert this PRD into developer tasks / tickets, or
+Provide exact Tailwind component specs, or
+Generate prompt instructions specifically for the Replit agent to build page-by-page.
+Just tell me the next step.

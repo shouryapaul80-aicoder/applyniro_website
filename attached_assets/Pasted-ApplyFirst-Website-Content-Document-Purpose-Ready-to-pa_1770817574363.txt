@@ -1,0 +1,285 @@
+ApplyFirst — Website Content Document
+Purpose: Ready-to-paste, human-sounding content for a multi-page website (Home, How it Works, Features, Waitlist, Integrations, FAQ, Contact, Footer). Tone: energetic & ambitious. Geography: India / Middle East / US. Lead capture: email + phone (country selector + validation). Offer / incentive: AI chatbot that helps improve and tailor CVs for ATS. Social proof: 2,300+ waitlist signups.
+
+Global site elements
+Brand name: ApplyFirst
+Tagline (site-wide, under logo): Apply to jobs 10x faster
+Primary CTA (site-wide):
+Button text: Join the waitlist
+Secondary CTA text: How it works?
+Hero metric (social proof):
+“Join 2,300+ early jobseekers on the waitlist.”
+Consent microcopy (below forms):
+“By joining the waitlist you agree to receive email & SMS updates from ApplyFirst. We’ll never sell your data. Read our Privacy Policy.”
+Phone input hint:
+“Enter your phone with country code — tap the flag to change country.”
+
+SEO Meta (suggested)
+Home / Landing
+Title: ApplyFirst — Automate job applications
+Description: ApplyFirst automates form-filling, email outreach and new job alerts so fresh grads and early-career professionals never miss opportunities. Join 2,300+ on the waitlist for early access and a free AI CV chatbot.
+How it Works
+Title: How ApplyFirst works — Auto-fill forms, send emails & get job new alerts
+Description: Learn the three simple steps — connect, automate, track — that let ApplyFirst speed up applying, sending emails, and deliver new job alerts to WhatsApp or Google Sheets.
+Waitlist
+Title: Join the Waitlist 
+Description: Sign up for early access and an AI chatbot that tailors your CV for ATS and target roles. Get notified when we launch.
+
+1) HOME (Landing page) — Content blocks & copy
+Header (nav)
+Links: Product • How it works • Features • Integrations • FAQ • Waitlist (button)
+Hero (first fold)
+Headline: Apply to jobs 10X faster
+Subheadline: Automate form applications, emails, and get daily job alerts — so you spend minutes applying, not hours.
+Primary CTA: Join the Waitlist
+Secondary CTA: See it in Action
+Hero line (social proof): Join 2,300+ early jobseekers already on the waitlist.
+Visual alt text: Icon flow illustration showing a Linkedin→ auto-fill form → WhatsApp/Sheet delivery.
+Quick benefits strip (three icons + one-liners)
+Apply 10× faster — Auto-fill LinkedIn & career page forms with your profile in seconds.
+Outreach that works — Auto-email job openings with tailored templates you approve.
+Never miss a role — Get daily job alerts to WhatsApp or Google Sheets from the companies you want.
+How it helps (short punch)
+For fresh grads: Get matched alerts from companies you care about and send more applications without burnout.
+For mid-experience jobseekers: Scale outreach, tailor your CV faster, and manage opportunities in one place.
+Demo preview
+Heading: See ApplyFirst in 60 seconds
+Description: Watch a quick walkthrough of the dashboard and the AI CV chatbot that tailors your resume for jobs.
+CTA: Watch demo
+Feature highlights (grid of cards)
+Auto-fill applications — One click populates forms from your LinkedIn profile and saved resume.
+Smart outreach — Send Emails or messages to recruiters & job posters with templates you control.
+Job watchlist — Add companies to a watchlist and get daily openings to WhatsApp or Google Sheets.
+Career-page scraping — We scan company career pages for new openings so you don’t have to.
+AI CV Chatbot — Get tailored CV edits and ATS-friendly rewrites to boost interview chances. (Join waitlist to get chatbot)
+Mini case / micro-testimonial
+Heading: Real results from early beta (anonymized)
+Copy: “I saved 8 hours a week and doubled the number of roles I applied to. ApplyFirst found roles from companies I’d missed.” — Early user, Software Engineer
+Note: (Use only until you collect real testimonials.)
+CTA band (repeater)
+Heading: Ready to apply faster?
+Button: Join Waitlist — 
+Footer preview (short)
+Links: About • FAQ • Privacy • Terms • Contact
+Social: LinkedIn (future), Twitter (future)
+
+2) HOW IT WORKS (detail page)
+Hero
+Headline: 3 steps to automate your job hunt
+Subheadline: Connect once, automate safely, and let ApplyFirst do the heavy lifting.
+Step 1 — Connect
+Title: Connect your accounts
+Copy: Securely link your LinkedIn and Google account (for Sheets & Gmail). Choose which companies you want to follow. Tokens are encrypted and can be revoked anytime.
+Microcopy: “We only read your feed and write to your Sheets with your permission.”
+Step 2 — Automate applying & outreach
+Title: Auto-fill and send emails
+Copy: ApplyFirst scans posts in your LinkedIn feed and applies to jobs suitable to your profile. You can approve applications or enable semi-automatic mode to speed up workflows. Emails are templated and personalised with your name and role details.
+Microcopy: “You always control the final send — full automation is optional.”
+Step 3 — Track & get alerts
+Title: Track applications & get daily alerts
+Copy: Receive curated job lists for companies you follow via WhatsApp or Google Sheets every morning. See application logs and status in a simple dashboard.
+Microcopy: “Miss nothing — get a daily digest where you want it.”
+Visual: icon set showing the automation workflow (feed → auto-fill → message → alert)
+CTA
+Button: Join Waitlist
+
+3) FEATURES (detail page)
+Hero
+Headline: Everything you need to speed up applying
+Subheadline: Built for fresh grads and early-career pros who want more interviews — faster.
+Feature: Auto-fill applications
+Heading: Auto-fill forms from LinkedIn & career pages
+Bullets:
+Pre-fill common fields (name, email, education, links) from your profile.
+Works on feed posts and many career pages.
+Resume upload for extra fields.
+One-liner benefit: Apply in seconds, not minutes.
+Feature: Smart Outreach
+Heading: Emails job posters with templates you approve
+Bullets:
+Customisable message templates.
+Personalisation tokens (company, role, poster name).
+Rate limits to avoid spammy behavior.
+One-liner benefit: Reach more recruiters without copy-paste.
+Feature: Job Watchlist & Alerts
+Heading: Daily job alerts delivered where you want them
+Bullets:
+Track companies and roles.
+Get compiled lists to WhatsApp or Google Sheets.
+Filter by role, location, and keywords.
+One-liner benefit: Wake up to fresh openings for companies you care about.
+Feature: Career-Page Scraper
+Heading: We scan company career pages automatically
+Bullets:
+Monitors company pages for new roles.
+Sends only relevant matches to your feed.
+Respectful crawling and rate limits.
+One-liner benefit: Discover jobs before they hit job boards.
+Feature: AI CV Chatbot (Waitlist incentive)
+Heading: AI CV chatbot: tailor your CV for each role
+Bullets:
+Upload your CV and get line-by-line edits for ATS.
+Ask the chatbot to tailor your CV to job descriptions.
+Quick suggestions to improve keywords and achievements.
+One-liner benefit: Better resumes → more interview calls.
+Security & Privacy (short)
+Heading: Security first
+Copy: We store tokens encrypted, use OAuth where possible, and never sell your data. You can disconnect integrations anytime. Full privacy policy available on the footer.
+CTA
+Button: Join wailtlist
+
+4) WAITLIST (lead-capture page) — exact content & form
+Hero
+Heading: Get early access to ApplyFirst — join waitlist
+Subheading: Sign up now and get exclusive access to the AI CV chatbot that tailors your CV for roles you want.
+Waitlist form labels & placeholders
+Full name
+Placeholder: E.g., Priya Sharma
+Validation message: “Please enter your full name.”
+Email address
+Placeholder: you@domain.com
+Validation message: “Please enter a valid email address.”
+Phone number (country selector + number field)
+Placeholder: Enter phone number
+Country selector label: Country (default: India)
+Validation message: “Please enter a valid phone number with country code.”
+Year of experience
+Placeholder: Enter years of experience
+Submit button: Join the waitlist
+Form microcopy & consent
+Below submit button: “By joining the waitlist you agree to receive email & SMS updates from ApplyFirst. We’ll never sell your data. Read our Privacy Policy.”
+Privacy link text: Privacy Policy
+After-submit (inline success message)
+Heading: Thanks — we’ll reach out soon.
+Body: “You’re on the ApplyFirst waitlist! We’ll email you next steps and give you access to the AI CV chatbot during early rollout. Meanwhile — follow us on Twitter/LinkedIn for updates.”
+Secondary action: Share & invite friends (pre-filled tweet/copy link)
+Microcopy for share: “Invite friends — get priority invites when they join.”
+New form entries should be reflected to my google sheet 
+Follow-up email (subject + body for devs to send automatically)
+
+Subject: Welcome to the ApplyFirst waitlist — here’s what’s next
+Body:
+Hi {{first_name}},
+
+Thanks for joining the ApplyFirst waitlist — welcome aboard 🎉
+
+What to expect next:
+• We’ll email you with early access details and instructions.
+• You’ll get priority access to the AI CV chatbot that helps tailor resumes for job descriptions.
+• Follow-up SMS with launch timeline and invite link.
+
+Meanwhile, reply to this email if you’d like priority consideration for a demo.
+
+— The ApplyFirst Team
+
+
+5) INTEGRATIONS (short reference page)
+Hero
+Headline: Connect the tools you already use
+Subheadline: LinkedIn, Gmail, Google Sheets, and WhatsApp (via Business API) — all connected securely.
+Integration cards
+LinkedIn (Read feed) — “Secure OAuth where available; we only read feed posts you allow.”
+Gmail (Send outreach) — “Send outreach messages from your account (requires Gmail OAuth).”
+Google Sheets (Delivery) — “Daily job lists delivered to the spreadsheet you choose.”
+WhatsApp Business (Alerts) — “Opt in to receive job alerts on WhatsApp via a verified provider.”
+Career pages (Scraping) — “We monitor career pages and push matches to your delivery channel.”
+Integration microcopy
+“We use OAuth where possible. For platforms without public APIs, we’ll ask for clear permission and explain next steps at connection time.”
+CTA
+Button: Join the Waitlist
+
+6) FAQ (top questions & ready answers)
+Q: Is ApplyFirst free?
+A: For the waitlist and early access we’re offering free trials to early users. Final pricing will be announced before launch.
+Q: How does ApplyFirst access my LinkedIn account?
+A: We use secure OAuth where available to read your feed and identify posts that match your preferences. If an API is not available, we’ll request your permission and explain any alternative connection method.
+Q: Will ApplyFirst send messages on my behalf?
+A: ApplyFirst can draft and queue messages using templates you configure. You can choose to review and approve sends, or enable semi-automatic sending with limits to prevent over-messaging.
+Q: Will you spam recruiters for me?
+A: No. We enforce rate limits and provide safe templates. You’re always in control of message content and send frequency.
+Q: How will I receive job alerts?
+A: Choose WhatsApp or Google Sheets as your delivery channel during setup. We send a daily digest with links and basic role details.
+Q: What data do you store and how is it protected?
+A: We store only the tokens and minimal metadata needed to run automations. All tokens are encrypted; you can revoke access at any time. We do not sell personal data.
+Q: Can I remove myself from the waitlist?
+A: Yes — reply to the welcome email or click the unsubscribe link in any email update.
+Q: I’m worried about LinkedIn policy — is this allowed?
+A: ApplyFirst is designed to respect platform terms and user consent. We recommend manual review for full automation until you’re comfortable. We’ll keep you informed about any policy-relevant changes.
+Q: When will ApplyFirst launch?
+A: We’ll notify waitlist members first. Join now for priority access and the AI CV chatbot trial.
+Q: Who should use ApplyFirst?
+A: Fresh grads, early-career professionals, and anyone who wants to scale their application volume without losing personalization.
+
+7) CONTACT / SUPPORT page content
+Hero
+Heading: Need help or want a demo?
+Subheading: Drop us a message — we reply within 48 hours to waitlist members.
+Contact form fields
+Name, Email, Subject, Message, Optional phone
+Submit button: Send message
+Contact microcopy
+Support email: office@applyfirst.com
+Business inquiries: office@applyfirst.com
+
+8) TRUST & PRIVACY snippets (for footer & forms)
+Short trust line for footer:
+“ApplyFirst — Secure automation for your job hunt. Data encrypted, opt-in only.”
+Privacy snippet for forms:
+“We’ll only use your email & phone to send ApplyFirst updates. You can unsubscribe anytime.”
+Legal CTA copy (footer link):
+Privacy Policy • Terms of Use • Cookie Policy
+
+9) Footer (copy)
+Left column: ApplyFirst logo + tagline Apply em all
+Middle column (links): Product • How it works • Features • Integrations • FAQ • Waitlist • Contact
+Right column: “Join 2,000+ early jobseekers” + CTA Join waitlist
+Tiny note: © 2026 ApplyFirst. All rights reserved.
+
+10) Microcopy, UI messages, and edge states (developer-ready)
+Buttons
+Primary: Join Waitlist
+Secondary: How it works?
+Small action (footer): Contact us
+Form placeholders & helper text
+Name placeholder: First & last name
+Email: you@domain.com
+Phone: 123 456 7890 (auto-format by country)
+Phone helper: Tap flag to select country code.
+Validation messages
+Name: “Please enter your name.”
+Email: “Please enter a valid email address.”
+Phone: “Please enter a valid phone number with country code.”
+Generic submit error: “There was an error. Please try again or email support@applyfirst.com.”
+Success message after waitlist submit
+Title: “Thanks — we’ll reach out soon.”
+Body: “You’ve in. Check your email for confirmation. We’ll contact you with early access info and the AI CV chatbot invite.”
+
+11) Email & Social copy (for launch communications)
+Sign-up confirmation email subject: “You’re on the ApplyFirst waitlist 🎉”
+Sign-up confirmation preview text: “Welcome — here’s what happens next and how to get early access.”
+
+12) Tone & voice guide (one-liners for content consistency)
+Be energetic, confident, concise.
+Use second person (you) to speak directly to jobseekers.
+Avoid buzzwords without value — explain what it does and why it matters.
+Keep microcopy action-oriented: “Get early access”, “Upload CV”, “Add company”.
+
+13) Example FAQ to address developer/legal early concerns (copy for team to show)
+“How does ApplyFirst keep my tokens safe?” — “We encrypt tokens in transit and at rest and never share them with third parties without your consent.”
+“Will ApplyFirst apply to jobs without my approval?” — “No — at launch we’ll require your approval for every application. Later, semi-automatic options will be available with clear controls.”
+“What happens if a job alert is a duplicate?” — “Our system attempts to deduplicate by job title & URL; you can mark duplicates in your daily digest.”
+
+14) Suggested page order / sitemap (for devs & designers to use)
+Home (Landing)
+How it Works
+Features
+Integrations
+Waitlist (Lead capture)
+FAQ
+Contact
+Footer (Privacy & Legal links)
+
+15) Quick copy snippets for designers (cards, CTAs, badges)
+Badge: Early Access
+Small card title: AI CV Chatbot — Subtext: Tailor your CV in seconds.
+Metric badge: 2,300+ waitlist signups — Subtext: Early interest from students & early-career pros.
