@@ -96,7 +96,8 @@ export default function Features() {
                    <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 text-white text-sm font-medium mb-4">
                     <Bot className="w-4 h-4" /> AI CV Chatbot
                   </div>
-                  <h2 className="text-3xl font-bold font-heading mb-4">AI CV chatbot: tailor your CV for each role</h2>
+                  <h2 className="font-heading mb-4 text-[25px] font-bold">Resume reviewer 
+                  Helps you improve CV for every role</h2>
                    <ul className="space-y-4 mb-8">
                     {["Upload your CV and get line-by-line edits for ATS.", "Ask the chatbot to tailor your CV to job descriptions.", "Quick suggestions to improve keywords and achievements."].map((item, i) => (
                       <li key={i} className="flex items-start gap-3 text-white/80">
@@ -121,7 +122,6 @@ export default function Features() {
           </div>
         </div>
       </section>
-      
       <section className="py-16 bg-[#151f2b] border-t border-white/5 text-center">
         <div className="container mx-auto px-4">
            <h2 className="text-2xl font-bold font-heading mb-4">Security first</h2>
