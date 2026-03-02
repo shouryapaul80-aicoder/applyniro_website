@@ -66,9 +66,7 @@ export function Navbar() {
 
         <div className="hidden md:flex items-center gap-4">
           <Link href="/waitlist">
-            <Button className="bg-primary hover:bg-primary/90 text-white font-medium rounded-full px-6 transition-all hover:scale-105 active:scale-95 shadow-[0_0_20px_rgba(44,151,151,0.3)]">
-              Join Waitlist
-            </Button>
+            <Button className="bg-primary hover:bg-primary/90 text-white font-medium rounded-full px-6 transition-all hover:scale-105 active:scale-95 shadow-[0_0_20px_rgba(44,151,151,0.3)]">Start up Now</Button>
           </Link>
         </div>
 
