@@ -127,7 +127,7 @@ export default function Features() {
            <h2 className="text-2xl font-bold font-heading mb-4">Security first</h2>
            <p className="text-white/60 max-w-2xl mx-auto mb-8">We store tokens encrypted, use OAuth where possible, and never sell your data. You can disconnect integrations anytime.</p>
            <Link href="/waitlist">
-              <Button size="lg" className="bg-primary hover:bg-primary/90 rounded-full px-8">Join Waitlist</Button>
+              <Button size="lg" className="bg-primary hover:bg-primary/90 rounded-full px-8">Sign Up Now</Button>
            </Link>
         </div>
       </section>
