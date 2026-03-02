@@ -107,7 +107,7 @@ export default function Home() {
       <section className="py-24 bg-[#1E2B3A]">
         <div className="container mx-auto px-4 md:px-6 text-center">
           <div className="max-w-3xl mx-auto mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold font-heading mb-4">See ApplyFirst in 60 seconds</h2>
+            <h2 className="text-3xl md:text-4xl font-bold font-heading mb-4">A assistant that works 24x7 </h2>
             <p className="text-lg text-white/60">Watch how our agent finds the jobs you desire and share updates to your dashboards.</p>
           </div>
           
