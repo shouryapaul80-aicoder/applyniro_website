@@ -190,9 +190,7 @@ export default function Home() {
                 Join 2,300+ early jobseekers already on the waitlist.
               </p>
               <Link href="/waitlist">
-                <Button size="lg" className="bg-white text-[#1E2B3A] hover:bg-white/90 font-bold h-14 px-10 rounded-full text-lg shadow-lg hover:scale-105 transition-transform">
-                  Join Waitlist Now
-                </Button>
+                <Button size="lg" className="bg-white text-[#1E2B3A] hover:bg-white/90 font-bold h-14 px-10 rounded-full text-lg shadow-lg hover:scale-105 transition-transform">Start for Free</Button>
               </Link>
             </div>
           </div>
