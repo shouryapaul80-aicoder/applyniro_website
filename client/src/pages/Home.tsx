@@ -36,7 +36,7 @@ export default function Home() {
             >
               <motion.div variants={item} className="inline-flex items-center gap-2 bg-white/5 border border-white/10 rounded-full px-4 py-1.5 mb-6 hover:bg-white/10 transition-colors cursor-default">
                 <span className="flex h-2 w-2 rounded-full bg-[#2C9797] animate-pulse"></span>
-                <span className="text-sm font-medium text-[#2C9797]">2,300+ waitlist signups</span>
+                <span className="text-sm font-medium text-[#2C9797]">Use AI the smart way </span>
               </motion.div>
               
               <motion.h1 variants={item} className="text-4xl md:text-5xl lg:text-6xl font-bold font-heading leading-tight mb-6">
