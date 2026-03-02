@@ -171,7 +171,7 @@ export default function Home() {
             </div>
             <h3 className="text-2xl md:text-3xl font-medium leading-relaxed mb-8">I saved 8 hours a week and triples the number of roles I applied to, ApplyFirst found roles from companies I'd missed.</h3>
             <div>
-              <p className="font-bold text-white">Early User</p>
+              <p className="font-bold text-white">Priyanka Sharma</p>
               <p className="text-white/50">Software Engineer</p>
             </div>
           </div>
