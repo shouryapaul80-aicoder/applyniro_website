@@ -44,9 +44,7 @@ export default function Home() {
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#2C9797] to-[#3A7EC1]">10x faster</span>
               </motion.h1>
               
-              <motion.p variants={item} className="text-lg md:text-xl text-white/70 mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-                Automate form applications, emails, and get daily job alerts — so you spend minutes applying, not hours.
-              </motion.p>
+              <motion.p variants={item} className="text-lg md:text-xl text-white/70 mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed">Automate form applications, emails, and get daily new job  alerts  - so you spend minutes applying, not hours.</motion.p>
               
               <motion.div variants={item} className="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start">
                 <Link href="/waitlist">
