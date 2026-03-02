@@ -113,14 +113,19 @@ export default function Home() {
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="relative max-w-5xl mx-auto rounded-xl overflow-hidden shadow-2xl border border-white/10 group cursor-pointer"
+            className="relative max-w-5xl mx-auto rounded-xl overflow-hidden shadow-2xl border border-white/10 group bg-black"
           >
-            <div className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors z-10 flex items-center justify-center">
-              <div className="w-20 h-20 rounded-full bg-white/10 backdrop-blur-sm flex items-center justify-center group-hover:scale-110 transition-transform">
-                <PlayCircle className="w-10 h-10 text-white" />
-              </div>
-            </div>
-            <img src={dashboardMock} alt="Dashboard Preview" className="w-full h-auto" />
+            <video 
+              src="/demo-video.mp4" 
+              className="w-full h-auto" 
+              controls 
+              autoPlay 
+              muted 
+              loop
+              playsInline
+            >
+              Your browser does not support the video tag.
+            </video>
           </motion.div>
         </div>
       </section>
