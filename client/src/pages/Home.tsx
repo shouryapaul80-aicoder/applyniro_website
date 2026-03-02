@@ -76,7 +76,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       {/* Benefits Strip */}
       <section className="bg-[#151f2b] py-12 border-y border-white/5">
         <div className="container mx-auto px-4 md:px-6">
@@ -104,13 +103,12 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       {/* Demo Preview */}
       <section className="py-24 bg-[#1E2B3A]">
         <div className="container mx-auto px-4 md:px-6 text-center">
           <div className="max-w-3xl mx-auto mb-12">
             <h2 className="text-3xl md:text-4xl font-bold font-heading mb-4">See ApplyFirst in 60 seconds</h2>
-            <p className="text-lg text-white/60">Watch a quick walkthrough of the dashboard and the AI CV chatbot that tailors your resume for jobs.</p>
+            <p className="text-lg text-white/60">Watch how our agent finds the jobs you desire and share updates to your dashboards.</p>
           </div>
           
           <motion.div 
@@ -128,7 +126,6 @@ export default function Home() {
           </motion.div>
         </div>
       </section>
-
       {/* Feature Highlights Grid */}
       <section className="py-24 bg-[#151f2b]">
         <div className="container mx-auto px-4 md:px-6">
@@ -167,7 +164,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       {/* Social Proof */}
       <section className="py-20 bg-[#1E2B3A] border-y border-white/5">
         <div className="container mx-auto px-4 md:px-6 text-center">
@@ -185,7 +181,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       {/* CTA Band */}
       <section className="py-24 bg-gradient-to-r from-[#1E2B3A] to-[#151f2b]">
         <div className="container mx-auto px-4 md:px-6 text-center">
