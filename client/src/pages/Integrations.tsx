@@ -73,9 +73,7 @@ export default function Integrations() {
               "We use OAuth where possible. For platforms without public APIs, we'll ask for clear permission and explain next steps at connection time."
             </p>
             <Link href="/waitlist">
-              <Button size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold h-14 px-10 rounded-full">
-                Join the Waitlist
-              </Button>
+              <Button size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold h-14 px-10 rounded-full">Sign up Now</Button>
             </Link>
           </div>
         </div>
