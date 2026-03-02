@@ -88,7 +88,7 @@ export default function Features() {
             {/* Feature 4: AI Chatbot (Special) */}
             <div className="relative rounded-3xl overflow-hidden bg-gradient-to-br from-[#2C9797]/20 to-[#3A7EC1]/20 border border-white/10 p-8 md:p-12">
               <div className="absolute top-0 right-0 p-4">
-                <span className="bg-primary text-white text-xs font-bold px-3 py-1 rounded-full">WAITLIST INCENTIVE</span>
+                <span className="bg-primary text-white text-xs font-bold px-3 py-1 rounded-full">Use AI the smart way</span>
               </div>
               
               <div className="grid md:grid-cols-2 gap-12 items-center relative z-10">
