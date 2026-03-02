@@ -108,7 +108,7 @@ export default function Features() {
                   </ul>
                   <p className="text-lg font-medium text-white mb-8">Benefit: Better resumes → more interview calls.</p>
                   <Link href="/waitlist">
-                    <Button className="bg-white text-[#1E2B3A] hover:bg-white/90">Get Early Access</Button>
+                    <Button className="bg-white text-[#1E2B3A] hover:bg-white/90">Get Access</Button>
                   </Link>
                 </div>
                 <div className="flex items-center justify-center">
