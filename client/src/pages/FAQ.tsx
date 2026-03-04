@@ -8,7 +8,7 @@ import {
 
 export default function FAQ() {
   const faqs = [
-    { q: "Is ApplyFirst free?", a: "For the waitlist and early access we're offering free trials to early users. Final pricing will be announced before launch." },
+    { q: "Is ApplyFirst free?", a: "For early access we're offering free trials to early users. Final pricing will be announced soon." },
     { q: "How does ApplyFirst access my LinkedIn account?", a: "We use secure OAuth where available to read your feed and identify posts that match your preferences. If an API is not available, we'll request your permission and explain any alternative connection method." },
     { q: "Will ApplyFirst send messages on my behalf?", a: "ApplyFirst can draft and queue messages using templates you configure. You can choose to review and approve sends, or enable semi-automatic sending with limits to prevent over-messaging." },
     { q: "Will you spam recruiters for me?", a: "No. We enforce rate limits and provide safe templates. You're always in control of message content and send frequency." },
