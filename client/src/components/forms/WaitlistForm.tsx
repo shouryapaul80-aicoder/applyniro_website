@@ -29,6 +29,7 @@ const formSchema = z.object({
   country: z.string().default("IN"),
   phone: z.string().min(8, "Please enter a valid phone number"),
   experience: z.string().min(1, "Please enter years of experience"),
+  industry: z.string().min(2, "Please enter your industry"),
 });
 
 type FormValues = z.infer<typeof formSchema>;
@@ -45,6 +46,7 @@ export function WaitlistForm() {
       country: "IN",
       phone: "",
       experience: "",
+      industry: "",
     },
   });
 
@@ -164,6 +166,20 @@ export function WaitlistForm() {
               <FormLabel className="text-white/80">Years of Experience</FormLabel>
               <FormControl>
                 <Input placeholder="e.g. 2" type="number" min="0" max="50" className="bg-[#0d141c] border-white/10 text-white placeholder:text-white/30 focus-visible:ring-primary" {...field} />
+              </FormControl>
+              <FormMessage />
+            </FormItem>
+          )}
+        />
+        
+        <FormField
+          control={form.control}
+          name="industry"
+          render={({ field }) => (
+            <FormItem>
+              <FormLabel className="text-white/80">Industry</FormLabel>
+              <FormControl>
+                <Input placeholder="e.g. Software, Finance, Marketing" className="bg-[#0d141c] border-white/10 text-white placeholder:text-white/30 focus-visible:ring-primary" {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
