@@ -23,7 +23,7 @@ export default function Waitlist() {
               <div className="hidden lg:block space-y-6">
                  <div className="flex items-center gap-4">
                     <div className="w-12 h-12 rounded-full bg-[#151f2b] border border-white/10 flex items-center justify-center font-bold text-white">1</div>
-                    <p className="text-white/80">Join the waitlist (takes 30s)</p>
+                    <p className="text-white/80">Fill the form (takes 30s)</p>
                  </div>
                  <div className="h-8 w-0.5 bg-white/10 ml-6"></div>
                  <div className="flex items-center gap-4">
