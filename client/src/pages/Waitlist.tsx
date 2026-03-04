@@ -16,7 +16,7 @@ export default function Waitlist() {
                 Early Access Open
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-heading mb-6 leading-tight">
-                Get early access to <span className="text-primary">ApplyFirst</span>
+                Get early access to <span className="text-[#2c9696]">ApplyNiro</span>
               </h1>
               <p className="text-lg text-white/70 mb-8 leading-relaxed">Sign up now to join niroclub, get free CV chatbot and many more niro assistants that help you use AI the smart way.</p>
               
