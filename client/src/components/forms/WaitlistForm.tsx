@@ -182,7 +182,7 @@ export function WaitlistForm() {
             </>
           ) : (
             <>
-              Join the Waitlist <ChevronRight className="ml-2 h-5 w-5" />
+              Sign Up <ChevronRight className="ml-2 h-5 w-5" />
             </>
           )}
         </Button>
