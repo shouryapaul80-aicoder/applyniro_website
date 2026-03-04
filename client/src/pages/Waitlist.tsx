@@ -18,9 +18,7 @@ export default function Waitlist() {
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-heading mb-6 leading-tight">
                 Get early access to <span className="text-primary">ApplyFirst</span>
               </h1>
-              <p className="text-lg text-white/70 mb-8 leading-relaxed">
-                Sign up now and get exclusive access to the AI CV chatbot that tailors your CV for roles you want.
-              </p>
+              <p className="text-lg text-white/70 mb-8 leading-relaxed">Sign up now to join niroclub, get free CV chatbot and many more niro assistants that help you use AI the smart way.</p>
               
               <div className="hidden lg:block space-y-6">
                  <div className="flex items-center gap-4">
