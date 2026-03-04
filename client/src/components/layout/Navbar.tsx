@@ -4,6 +4,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu, X } from "lucide-react";
 import { useState, useEffect } from "react";
 import { cn } from "@/lib/utils";
+import logoImg from "@/assets/logo.png";
 
 const navLinks = [
   { name: "How it works", href: "/how-it-works" },
@@ -37,9 +38,7 @@ export function Navbar() {
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
         <Link href="/">
           <a className="flex items-center gap-2 group cursor-pointer">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#2C9797] to-[#3A7EC1] flex items-center justify-center text-white font-bold text-xl">
-              A
-            </div>
+            <img src={logoImg} alt="ApplyNiro Logo" className="h-8 w-auto rounded-lg object-contain" />
             <span className="font-heading font-bold text-xl text-white tracking-tight group-hover:text-primary transition-colors">
               ApplyNiro
             </span>

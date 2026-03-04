@@ -1,5 +1,6 @@
 import { Link } from "wouter";
 import { Twitter, Linkedin, Github } from "lucide-react";
+import logoImg from "@/assets/logo.png";
 
 export function Footer() {
   return (
@@ -9,9 +10,7 @@ export function Footer() {
           <div className="col-span-1 md:col-span-1">
             <Link href="/">
               <a className="flex items-center gap-2 mb-4 cursor-pointer">
-                <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#2C9797] to-[#3A7EC1] flex items-center justify-center text-white font-bold text-lg">
-                  A
-                </div>
+                <img src={logoImg} alt="ApplyNiro Logo" className="h-8 w-auto rounded-lg object-contain" />
                 <span className="font-heading font-bold text-xl text-white tracking-tight">
                   ApplyNiro
                 </span>
