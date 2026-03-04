@@ -15,7 +15,7 @@ export default function FAQ() {
     { q: "How will I receive job alerts?", a: "Choose WhatsApp or Google Sheets as your delivery channel during setup. We send a daily digest with links and basic role details." },
     { q: "What data do you store and how is it protected?", a: "We store only the tokens and minimal metadata needed to run automations. All tokens are encrypted; you can revoke access at any time. We do not sell personal data." },
     { q: "Can I remove myself from the waitlist?", a: "Yes — reply to the welcome email or click the unsubscribe link in any email update." },
-    { q: "I'm worried about LinkedIn policy — is this allowed?", a: "ApplyFirst is designed to respect platform terms and user consent. We recommend manual review for full automation until you're comfortable. We'll keep you informed about any policy-relevant changes." },
+    { q: "I'm worried about LinkedIn policy — is this allowed?", a: "ApplyNiro is designed to respect platform terms and user consent. We recommend manual review for full automation until you're comfortable. We'll keep you informed about any policy-relevant changes." },
     { q: "When will ApplyFirst launch?", a: "We'll notify waitlist members first. Join now for priority access and the AI CV chatbot trial." },
     { q: "Who should use ApplyFirst?", a: "Fresh grads, early-career professionals, and anyone who wants to scale their application volume without losing personalization." },
   ];
