@@ -188,7 +188,7 @@ export function WaitlistForm() {
         </Button>
         
         <p className="text-xs text-white/40 text-center px-4">
-          By joining the waitlist you agree to receive email & SMS updates from ApplyFirst. We'll never sell your data.
+          By joining the waitlist you agree to receive email & SMS updates from ApplyNiro. We'll never sell your data.
         </p>
       </form>
     </Form>

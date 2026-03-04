@@ -17,7 +17,7 @@ export default function HowItWorks() {
       id: 2,
       icon: Zap,
       title: "Automate applying & outreach",
-      desc: "ApplyFirst scans posts in your LinkedIn feed and applies to jobs suitable to your profile. You can approve applications or enable semi-automatic mode to speed up workflows.",
+      desc: "ApplyNiro scans posts in your LinkedIn feed and applies to jobs suitable to your profile. You can approve applications or enable semi-automatic mode to speed up workflows.",
       micro: "You always control the final send — full automation is optional."
     },
     {
@@ -35,7 +35,7 @@ export default function HowItWorks() {
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center max-w-3xl mx-auto mb-20">
             <h1 className="text-4xl md:text-5xl font-bold font-heading mb-6">3 steps to automate your job hunt</h1>
-            <p className="text-xl text-white/70">Connect once, automate safely, and let ApplyFirst do the heavy lifting.</p>
+            <p className="text-xl text-white/70">Connect once, automate safely, and let ApplyNiro do the heavy lifting.</p>
           </div>
 
           <div className="relative max-w-4xl mx-auto">

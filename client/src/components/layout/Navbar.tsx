@@ -41,7 +41,7 @@ export function Navbar() {
               A
             </div>
             <span className="font-heading font-bold text-xl text-white tracking-tight group-hover:text-primary transition-colors">
-              ApplyFirst
+              ApplyNiro
             </span>
           </a>
         </Link>

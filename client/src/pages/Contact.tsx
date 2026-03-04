@@ -33,7 +33,7 @@ export default function Contact() {
                 
                 <div className="mt-12 p-6 bg-[#1E2B3A] rounded-xl border border-white/5">
                    <p className="text-white/80 text-sm leading-relaxed">
-                     "ApplyFirst has been a game changer for my job search. The support team is super responsive!"
+                     "ApplyNiro has been a game changer for my job search. The support team is super responsive!"
                    </p>
                    <p className="text-white/40 text-xs mt-4">— Beta Tester</p>
                 </div>

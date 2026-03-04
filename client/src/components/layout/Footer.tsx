@@ -13,7 +13,7 @@ export function Footer() {
                   A
                 </div>
                 <span className="font-heading font-bold text-xl text-white tracking-tight">
-                  ApplyFirst
+                  ApplyNiro
                 </span>
               </a>
             </Link>
@@ -63,7 +63,7 @@ export function Footer() {
 
         <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-white/40 text-xs">
-            © {new Date().getFullYear()} ApplyFirst. All rights reserved.
+            © {new Date().getFullYear()} ApplyNiro. All rights reserved.
           </p>
           <p className="text-white/40 text-xs flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-green-500"></span>
