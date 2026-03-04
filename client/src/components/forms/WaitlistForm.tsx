@@ -37,6 +37,7 @@ type FormValues = z.infer<typeof formSchema>;
 export function WaitlistForm() {
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitError, setSubmitError] = useState<string | null>(null);
 
   const form = useForm<FormValues>({
     resolver: zodResolver(formSchema),
@@ -50,14 +51,25 @@ export function WaitlistForm() {
     },
   });
 
-  function onSubmit(values: FormValues) {
+  async function onSubmit(values: FormValues) {
     setIsSubmitting(true);
-    // Simulate API call
-    setTimeout(() => {
-      console.log(values);
+    try {
+      const response = await fetch("/api/waitlist", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(values),
+      });
+      const result = await response.json();
+      if (result.success) {
+        setIsSubmitted(true);
+      } else {
+        setSubmitError(result.message || "Something went wrong. Please try again.");
+      }
+    } catch (error) {
+      setSubmitError("Network error. Please check your connection and try again.");
+    } finally {
       setIsSubmitting(false);
-      setIsSubmitted(true);
-    }, 1500);
+    }
   }
 
   if (isSubmitted) {
@@ -202,6 +214,12 @@ export function WaitlistForm() {
             </>
           )}
         </Button>
+        
+        {submitError && (
+          <p className="text-sm text-red-400 text-center bg-red-500/10 border border-red-500/20 rounded-lg p-3">
+            {submitError}
+          </p>
+        )}
         
         <p className="text-xs text-white/40 text-center px-4">
           By joining the waitlist you agree to receive email & SMS updates from ApplyNiro. We'll never sell your data.
