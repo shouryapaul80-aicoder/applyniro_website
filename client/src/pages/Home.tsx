@@ -49,7 +49,7 @@ export default function Home() {
               <motion.div variants={item} className="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start">
                 <Link href="/waitlist">
                   <Button size="lg" className="w-full sm:w-auto bg-primary hover:bg-primary/90 text-white font-semibold h-14 px-8 rounded-full shadow-[0_0_30px_rgba(44,151,151,0.4)] transition-transform hover:scale-105">
-                    Join the Waitlist <ArrowRight className="ml-2 h-5 w-5" />
+                    Start for Free <ArrowRight className="ml-2 h-5 w-5" />
                   </Button>
                 </Link>
                 <Button variant="outline" size="lg" className="w-full sm:w-auto h-14 px-8 rounded-full border-white/20 text-white hover:bg-white/5 hover:text-white">
