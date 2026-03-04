@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
 import { motion } from "framer-motion";
 import { ArrowRight, Zap, Mail, Bell, PlayCircle, CheckCircle } from "lucide-react";
-import heroIllustration from "@/assets/hero-illustration.png";
+import heroIllustration from "@/assets/hero-image.png";
 import dashboardMock from "@/assets/dashboard-mock.png";
 
 export default function Home() {
